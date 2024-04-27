@@ -1,0 +1,63 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* transform: rotate(30deg); */
+    transition: 2s;
+    margin: 0 auto;
+    /* bu 2 sekund div uchun ishlaydi */
+
+    
+}
+
+
+div:hover{
+    /* transition: 2s; */
+    /* bu 2 sekund faqat hover uchun ishlaydi */
+
+    /* Rotate  */
+
+    /* transform: rotate(30deg); */
+    /* 30 gradusga buradi */
+    /* transform: rotateX(270deg); */
+    /* x o'qi atrofida aylanadi */
+    /* transform: rotateY(1800deg); */
+    /* Y o'qi atrofida aylanadi */
+    /* transform: rotateZ(90deg); */
+    /* Z o'qi atrofida aylanadi */
+    /* transform: rotateZ(0deg) rotateX(180deg) rotateY(180deg); */
+    /* hammasi birda */
+
+    /* Translate  */
+
+    /* transform: translateX(1300px); */
+    /* x o'qi bo'yicha yurgizadi */
+    /* transform: translateY(300px); */
+    /* y o'qi bo'yicha yurgizadi */
+    /* transform: translate(1300px, 300px); */
+    /* ikkala o'q bo'yicha yuradi */
+
+    /* Scale */
+
+    /* transform: scaleX(1.5); */
+    /* width o'zgaradi */
+    /* transform: scaleY(1.5); */
+    /* height o'zgaradi */
+    /* transform: scale(5, 2); */
+    /* transform: scale(1.9); */
+    /* ikkalasi ham o'zgaradi */
+
+    transform: rotate(100deg) translate(500px, 300px) scale(2, 3) skew(30deg, 45deg);
+
+    /* Skew  */
+
+    /* transform: skewX(45deg); */
+    /* x o'qi bo'yicha 45 gradusga qiyshaytirib beradi  */
+    /* transform: skewY(45deg); */
+    /* y o'qi bo'yicha 45 gradusga qiyshaytirib beradi  */
+    /* transform: skew(-45deg, -45deg); */
+    /* ham x ham y o'qi bo'yicha qiyshaytiradi */
+
+
+}
+
